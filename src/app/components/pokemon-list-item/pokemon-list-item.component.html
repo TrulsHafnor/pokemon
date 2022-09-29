@@ -1,0 +1,7 @@
+<li *ngIf="pokemon" class="mb-3 shadow bg-white rounded relative">
+    <app-favourite-button [pokemonId]="pokemon.id" ></app-favourite-button>
+    <section class="p-4">
+        <span class="text-2xl">{{ pokemon.name }}</span>
+    </section>
+</li>
+ 
